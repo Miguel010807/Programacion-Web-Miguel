@@ -1,0 +1,26 @@
+
+
+
+
+
+
+
+
+
+p
+{
+    color: blue;
+
+}
+
+.contenedor {
+    color: yellow;  /*Modifica el color de texto*/
+    background-color: lightskyblue; /*Color de Fondo*/
+    font-size: 40px; /* Tamaño de la Letra */
+    font-family: sans-serif;
+    border: 50px solid black; /*Ancho, Tipo de linea, Color*/
+    padding: 40px; /*Espacio del elemento hacia los bordes*/
+    border-radius: 10px;
+    
+}
+.contenedor-bordes{}
