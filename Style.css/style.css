@@ -23,4 +23,22 @@ p
     border-radius: 10px;
     
 }
-.contenedor-bordes{}
+.imagen{
+    width: 250px;
+    height: 250px;
+
+
+}
+
+.contenedor2 {
+    color: black;  /*Modifica el color de texto*/
+    background-color: lightskyblue; /*Color de Fondo*/
+    font-size: 10px; /* Tamaño de la Letra */
+    font-family: sans-serif;
+    border: 20px solid black; /*Ancho, Tipo de linea, Color*/
+    border-radius: 10px;
+    padding: 40px; /*Espacio del elemento hacia los bordes*/
+    width: 800px;
+    height: 300px;
+
+}
