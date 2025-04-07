@@ -1,0 +1,49 @@
+.contenedor2-1{
+    color: rgb(152, 215, 231);  /*Modifica el color de texto*/
+    background-color: rgb(89, 170, 197); /*Color de Fondo*/
+    font-size: 20px; /* Tamaño de la Letra */
+    font-family: sans-serif;
+   /*border: 100px solid #003950; /*Ancho, Tipo de linea, Color*/
+    padding: 50px; /*Espacio del elemento hacia los bordes*/
+    border-radius: 0px;
+    width: 230px;
+    height: 300px;
+    text-align: center;
+              }
+
+
+.contenedor-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}                
+
+h1{
+
+    text-align: center;
+
+}
+
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #a6d7f2;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #000;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 170px;
+    height: 35px;
+  }
+ 
+.links {
+    margin-top: 15px;
+    font-size: 13px;
+  }
+
+ 
+
