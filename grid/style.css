@@ -1,0 +1,79 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    background-image: url("https://st1.uvnimg.com/dims4/default/b587621/2147483647/thumbnail/1024x384%3E/quality/75/?url=https%3A%2F%2Fuvn-brightspot.s3.amazonaws.com%2Fassets%2Fvixes%2Fe%2Fexplosion-nuclear.jpg")
+}
+
+.gird{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) /*300px 300px 300px;*/;
+
+    grid-auto-rows: auto;
+    /*auto-rows establece automaticamente el tamaño de las columnas*/
+    gap: 10px;
+}
+
+
+
+.card{
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    /*height: 650px;*/
+    width: 500px;
+    cursor: pointer; /*Cursor pointer cambia el cursor por una mano*/
+}
+h1{
+    text-align: center
+}
+h2{
+    text-align: center
+}
+
+.link{
+    margin-top: 15px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.Ft1{
+    background-color: aqua;
+}
+
+.Ft2{
+    background-color: aqua;
+}
+
+.Ft3{
+    background-color: aqua;
+}
+
+
+/*Media query indica que cuando se llegue a ese tamaño o menos las
+clases que estan dentro de las llaves van a cambiar a lo que digan*/
+
+@media (max-width: 768px){
+    .gird{
+        grid-template-columns: 1fr; 
+
+    }
+}
+
+
+
+
+.card img{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
