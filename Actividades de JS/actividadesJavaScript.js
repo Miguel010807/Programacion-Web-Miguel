@@ -56,3 +56,6 @@ for (let suma2 = 0; suma2 <= 4; suma2++){
     console.log("La suma total es: ", counter2);
 }
 
+//Nivel 2
+
+
